@@ -34,7 +34,7 @@ export function About() {
             />
           </div>
           <div className="absolute -bottom-6 -right-4 hidden rounded-lg bg-accent px-8 py-6 text-accent-foreground shadow-lg sm:block lg:-right-6">
-            <p className="font-serif text-3xl font-semibold">+20 años</p>
+            <p className="font-serif text-3xl font-semibold">+9 años</p>
             <p className="text-sm">de trayectoria profesional</p>
           </div>
         </div>
@@ -45,18 +45,17 @@ export function About() {
             Nosotros
           </p>
           <h2 className="font-serif text-3xl font-medium leading-tight text-balance text-primary sm:text-4xl">
-            Una firma que integra soluciones, no solo servicios
+            Una firma que integra soluciones, no solo servicios.
           </h2>
           <p className="mt-6 leading-relaxed text-muted-foreground">
-            Vélez Arango & Asociados es una firma boutique especializada en
-            consultoría financiera, estructuración empresarial y asesoría
-            jurídica. Nacimos con la convicción de que las empresas necesitan un
-            aliado que entienda su realidad de manera integral.
+            En Vélez Arango & Asociados entendemos que cada empresa enfrenta 
+            desafíos diferentes. Analizamos su situación financiera, jurídica 
+            y estratégica para diseñar soluciones que fortalezcan su liquidez, 
+            protejan su patrimonio y favorezcan su crecimiento sostenible.
           </p>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Combinamos rigor técnico, visión estratégica y un trato cálido y
-            exclusivo para ayudar a nuestros clientes a tomar mejores decisiones,
-            crecer de forma sostenible y proteger su patrimonio.
+            No promovemos endeudamiento por volumen; estructuramos capital 
+            con criterio para generar resultados reales y sostenibles.
           </p>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-3">

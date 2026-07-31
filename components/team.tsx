@@ -3,18 +3,18 @@ import { LinkedinIcon } from '@/components/social-icons'
 
 const TEAM = [
   {
-    name: 'Carlos Vélez Arango',
+    name: 'Camilo Vélez',
     role: 'Socio Director · Consultoría Financiera',
     image: '/images/team-1.png',
   },
   {
-    name: 'Ana María Restrepo',
+    name: 'Beatriz del Valle',
     role: 'Socia · Asesoría Jurídica Corporativa',
     image: '/images/team-2.png',
   },
   {
-    name: 'Julián Arango',
-    role: 'Director · Reestructuración Empresarial',
+    name: 'Mónica Torres',
+    role: 'Directora · Diagnóstico Estratégico',
     image: '/images/team-3.png',
   },
 ]

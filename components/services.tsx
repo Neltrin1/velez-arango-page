@@ -10,33 +10,33 @@ import {
 const SERVICES = [
   {
     icon: RefreshCcw,
-    title: 'Reestructuración Empresarial',
+    title: 'Diagnóstico Estratégico',
     description:
-      'Reorganización empresarial y procesos de Ley 1116 para recuperar la viabilidad y sostenibilidad de tu empresa.',
+      'Análisis financiero y legal, Evaluación de riesgos, Ruta estratégica',
   },
   {
     icon: TrendingUp,
-    title: 'Soluciones Financieras',
+    title: 'Soluciones de Financiación',
     description:
-      'Factoring, confirming y estrategias de capital de trabajo para optimizar tu flujo de caja y liquidez.',
+      'Factoring, confirming, Créditos empresariales y Anticipo de contratos y órdenes de compra.',
   },
   {
     icon: Briefcase,
-    title: 'Consultoría Empresarial',
+    title: 'Optimización Empresarial',
     description:
-      'Estructuración y acompañamiento estratégico para la toma de decisiones y el crecimiento de tu negocio.',
+      'Reingeniería financiera, Optimización del flujo de caja y Reducción de costos.',
   },
   {
     icon: Calculator,
-    title: 'Servicios Contables y Tributarios',
+    title: 'Reorganización Empresarial',
     description:
-      'Contabilidad, auditoría y revisoría fiscal con estándares de rigor y cumplimiento normativo.',
+      'Diagnóstico de insolvencia, Negociación con acreedores y Acuerdos de pago.',
   },
   {
     icon: Scale,
-    title: 'Asesoría Jurídica',
+    title: 'Liquidación Empresarial',
     description:
-      'Acompañamiento legal integral en materia corporativa, comercial y de protección patrimonial.',
+      'Evaluación de viabilidad, Gestión de activos y Acompañamiento integral.',
   },
 ]
 

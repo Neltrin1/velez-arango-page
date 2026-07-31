@@ -93,8 +93,8 @@ export function SiteFooter() {
             <ul className="mt-5 space-y-3 text-sm text-primary-foreground/70">
               <li>Cra. 43A #1-50, Torre Empresarial</li>
               <li>Medellín, Colombia</li>
-              <li>+57 300 000 0000</li>
-              <li>contacto@velezarango.com</li>
+              <li>+57 321 523 3615</li>
+              <li>mtorres@velezarangoasociados.com</li>
             </ul>
           </div>
         </div>

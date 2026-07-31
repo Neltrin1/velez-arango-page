@@ -36,9 +36,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <a href="#inicio" className="flex flex-col leading-none">
           <span
-            className={`font-serif text-xl font-semibold tracking-wide transition-colors ${
-              scrolled ? 'text-primary' : 'text-background'
-            }`}
+            className="font-serif text-xl font-semibold tracking-wide text-primary transition-colors"
           >
             Vélez Arango
           </span>
@@ -52,9 +50,7 @@ export function SiteHeader() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-accent ${
-                scrolled ? 'text-muted-foreground' : 'text-background/85'
-              }`}
+              className="text-sm font-medium text-foreground/80 transition-colors hover:text-accent"
             >
               {link.label}
             </a>
@@ -65,7 +61,7 @@ export function SiteHeader() {
           href="#contacto"
           className="hidden rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90 lg:inline-block"
         >
-          Agenda tu consulta
+          Solicita una asesoría
         </a>
 
         <button
@@ -73,9 +69,7 @@ export function SiteHeader() {
           aria-label={open ? 'Cerrar menú' : 'Abrir menú'}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className={`inline-flex items-center justify-center rounded-md p-2 transition-colors lg:hidden ${
-            scrolled || open ? 'text-primary' : 'text-background'
-          }`}
+          className="inline-flex items-center justify-center rounded-md p-2 text-primary transition-colors lg:hidden"
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
@@ -99,7 +93,7 @@ export function SiteHeader() {
               onClick={() => setOpen(false)}
               className="mt-4 rounded-md bg-accent px-5 py-3 text-center text-sm font-semibold text-accent-foreground"
             >
-              Agenda tu consulta
+              Solicita una asesoría
             </a>
           </nav>
         </div>

@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { MapPin, Phone, Mail, Clock, MessageCircle, Check } from 'lucide-react'
 
-const WHATSAPP_NUMBER = '573000000000'
+const WHATSAPP_NUMBER = '573215233615'
 
 const CONTACT_INFO = [
   {
@@ -11,8 +11,8 @@ const CONTACT_INFO = [
     label: 'Dirección',
     value: 'Cra. 43A #1-50, Torre Empresarial, Medellín, Colombia',
   },
-  { icon: Phone, label: 'Teléfono', value: '+57 300 000 0000' },
-  { icon: Mail, label: 'Correo', value: 'contacto@velezarango.com' },
+  { icon: Phone, label: 'Teléfono', value: '+57 321 523 3615' },
+  { icon: Mail, label: 'Correo', value: 'mtorres@velezarangoasociados.com' },
   { icon: Clock, label: 'Horario', value: 'Lun a Vie · 8:00 a.m. – 6:00 p.m.' },
 ]
 
@@ -37,7 +37,7 @@ export function Contact() {
               Conversemos sobre el futuro de tu empresa
             </h2>
             <p className="mt-4 max-w-md leading-relaxed text-muted-foreground">
-              Agenda una consulta con nuestro equipo. Te responderemos de forma
+              Solicita una asesoría con nuestro equipo. Te responderemos de forma
               oportuna y confidencial.
             </p>
 
